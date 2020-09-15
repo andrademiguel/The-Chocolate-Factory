@@ -3,16 +3,52 @@
     <head>
         <title>Miguel Andrade</title>
         <link href="css/styles.css"> 
-        
-
+        <a href="index.html">Home Page</a>
     </head> 
     
     <body>
         
        <form>
-
+           <h2>Purchase your chocolate!</h2>
+           <br>
+           <h4>Purchase order request form </h4>
+           First name: <input type="text" Name="Fname"><br> 
+           Last name: <input type="text" Name="Lname"><br>
+           Password: <input type="password" Name="pwd"><br>
+           
+           <table>
+            <tr>
+                <td valighn="top">
+                    Select your Chocolate: <br>
+                    <select name="chocolates" size="5" multiple="multiple">
+                        <option type="dark" name="chocolate" value="ch1">Dark Chocolate</option><br>
+                        <option value="milk" name="chocolate" value="ch2">Milk Chocolate</option><br>
+                        <option value="white" name="chocolate" value="ch3">White Chocolate</option><br>
+                        <option value="Almond"name="chocolate" value="ch4"> Chocolate covered Almonds</option> <br>
+                        <option value="Marshmallows"name="chocolate" value="ch5">Chocolate covered Marshmallows</option><br>
+                        <option value="Nut Bark"name="chocolate" value="ch6">Chocolate Nut Bark</option><br>
+                        <option value="clusters"name="chocolate" value=ch7> Chocolate Clusters</option><br>
+                        <option value="Raisins"name="chocolate" value=8>Chocolate covered raisins</option><br>
+                    </select>
+                </td>
+                <td valign="top">
+                    Would you like a cold pack:<br>
+                    <input type="checkbox" name="Yes" value="Option1">Yes $3.50<br>
+                    <input type="checkbox" name="No" value="Option2">No <br>
+                </td> 
+                <td valighn="top">
+                    Payment:<br>
+                      <input type="radio" name="pmt" value="Debit" checked>Debit<br>
+                      <input type="radio" name="pmt" value="credit">Credit<br>
+                      <input type="radio" name="pmt" value="eCheck">eCheck<br>
+                </td>                                       
+            </tr>
+          </table>
+          <input type="date" name="dob"/>
+          <br>
+          <br>
+          <INPUT TYPE="submit" VALUE="Submit">   <input type="reset">
        </form>
 
     </body> 
 </html>
->
